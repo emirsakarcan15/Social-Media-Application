@@ -52,7 +52,6 @@ This demo project allows users to share photos and videos, interact with posts, 
 
 ## 📂 Project Structure
 
-```text
 SocialMedia/
 ├── backend/
 │   ├── controllers/
