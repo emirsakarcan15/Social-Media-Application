@@ -1,0 +1,38 @@
+.photos-in-profile {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
+}
+
+.photos-in-profile:hover {
+    filter: brightness(0.7);
+    transition: 0.3s ease-in-out;
+}
+
+.like-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.like-icon-clicked {
+    width: 30px;
+    height: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+.comment-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.send-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+}

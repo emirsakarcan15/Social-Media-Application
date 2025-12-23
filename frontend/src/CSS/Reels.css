@@ -1,0 +1,105 @@
+.scroll-container {
+  height: 100vh;               /* Tüm ekran boyu */
+  overflow-y: scroll;          /* Dikey scroll */
+  scroll-snap-type: y mandatory; /* Dikey snap */
+}
+
+.snap-item {
+  height: 100vh;               /* Her video tam ekran kaplasın */
+  scroll-snap-align: start;    /* Scroll bittiğinde en üste hizala */
+}
+
+#reelVideo {
+  margin-top: 30px;
+  width: 400px;
+  height: 600px;
+  border: 2px solid none;
+  border-radius: 10px;
+  object-fit: cover;           /* Video kapsayıcıya sığsın */
+}
+
+#usernameInReel {
+  position: absolute;
+  bottom: 60px;
+  left: 80px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#profileImageInReel {
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+#descriptionInReel {
+  position: absolute;
+  bottom: 20px;
+  left: 23px;
+  color: white;
+  font-size: 16px;
+  width: 350px;
+}
+
+#dateInReel {
+  position: absolute;
+  bottom: 0px;
+  left: 23px;
+  color: white;
+  font-size: 13px;
+}
+
+#likeInReel {
+  width: 30px;
+  height: 30px;
+  color: red;
+  cursor: pointer;
+}
+
+#redLikeInReel {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+} 
+
+#commentInReel {
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#sendInReel {
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.likeCount {
+  margin: 0;
+  margin-left: 5px;
+}
+
+#mutedIcon {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+#unMutedIcon {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}

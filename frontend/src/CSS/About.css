@@ -1,0 +1,82 @@
+.editIconUserName {
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+    transition: 0.5s;
+}
+
+.editIconUserName:hover {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
+}
+
+.userNameInput {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: black;
+    font-size: 20px;
+    margin-bottom: 16px;
+    transition: 0.5s;
+}
+
+.userNameInput:focus {
+    border-bottom: 4px solid black;
+    transition: 0.5s;
+}
+
+.tickIconUserName {
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
+}
+
+.tickIconUserName:hover {
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    transition: 0.5s;
+}
+
+.editIconBio {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    transition: 0.5s;
+}
+
+.editIconBio:hover {
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    transition: 0.5s;
+}
+
+.bioInput {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: black;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.bioInput:focus {
+    border-bottom: 4px solid black;
+    transition: 0.5s;
+}
+
+.tickIconBio {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+    margin-right: 100px;
+}
+
+.tickIconBio:hover {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+}

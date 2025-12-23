@@ -1,0 +1,156 @@
+.text-type {
+    font-size: 70px;
+    width: 800px;
+    margin-right: 20px;
+    margin-top: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#signInForm {
+    width: 400px;
+    height: 600px;
+    border: 2px solid white;
+    border-radius: 50px;
+    box-shadow: 10px 10px 15px 15px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#signInTitle {
+    font-size: 50px;
+    margin-top: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#inputs {
+    margin-top: 30px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#userNameInput {
+    width: 300px;   
+}
+
+#userNameInputLogIn {
+    width: 300px;   
+}
+
+#passwordInput {
+    width: 300px;
+}
+
+#passwordInputLogIn {
+    width: 300px;
+}
+
+#re-passwordInput {
+    width: 300px;
+}
+
+#signInButton {
+    width: 300px;
+    height: 50px;
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: 1s;
+}
+
+#signInButton:hover {
+    background-color: #515151;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#alreadyHave {
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border: black solid 2px;
+    border-radius: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: 1s;
+}
+
+#alreadyHave:hover {
+    background-color: lightgray;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#logInForm {
+    width: 400px;
+    height: 470px;
+    border: 2px solid white;
+    border-radius: 50px;
+    box-shadow: 10px 10px 15px 15px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    margin-left: 200px;
+}
+
+#logInTitle {
+    font-size: 35px;
+    margin-top: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logInButton {
+    width: 300px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: 1s;
+}
+
+#logInButton:hover {
+    background-color: #515151;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#dontHave {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border: black solid 2px;
+    border-radius: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: 1s;
+}
+
+#dontHave:hover {
+    background-color: lightgray;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#photos {
+    width: 400px;
+    height: 230px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+}

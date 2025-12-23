@@ -1,0 +1,39 @@
+.navIcons {
+    height: 26px;
+    width: 26px;
+    color: gray;
+}
+
+.navIcons:hover {
+    cursor: pointer;
+    color: black;
+    transition: 1.0s;
+    height: 26px;
+    width: 26px;
+}
+
+.navIconsOnClick {
+    height: 26px;
+    width: 26px;
+    color: black;
+}
+
+#createIcon {
+    height: 32px;
+    width: 32px;
+    color: gray
+}
+
+#createIcon:hover {
+    cursor: pointer;
+    color: black;
+    transition: 1.0s;
+    height: 32px;
+    width: 32px;
+}
+
+#createIconOnClick {
+    height: 32px;
+    width: 32px;
+    color: black;
+}
