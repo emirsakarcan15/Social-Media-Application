@@ -50,30 +50,6 @@ This demo project allows users to share photos and videos, interact with posts, 
 
 ---
 
-## 📂 Project Structure
-
-SocialMedia/
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   ├── thirdParty/
-│   └── app.js
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── redux/
-│   │   ├── services/
-│   │   └── App.jsx
-│   └── package.json
-│
-└── README.md
-
----
-
 ## 🧠 Technical Notes
 
 - Built with RESTful API architecture  
