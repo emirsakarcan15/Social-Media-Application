@@ -63,4 +63,4 @@ This demo project allows users to share photos and videos, interact with posts, 
 ## 👤 Developer
 
 **Emir Şakarcan**  
-GitHub: [https://github.com/emirsakarcan](https://github.com/emirsakarcan)
+GitHub: [https://github.com/emirsakarcan](https://github.com/emirsakarcan15)
