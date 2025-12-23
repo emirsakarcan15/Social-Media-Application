@@ -59,8 +59,8 @@ SocialMedia/
 │   ├── models/
 │   ├── routes/
 │   ├── middleware/
-│   ├── utils/
-│   └── server.js
+│   ├── thirdParty/
+│   └── app.js
 │
 ├── frontend/
 │   ├── src/
