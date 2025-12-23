@@ -42,8 +42,7 @@ This demo project allows users to share photos and videos, interact with posts, 
 - Mongoose  
 - JWT (JSON Web Token)  
 - bcrypt  
-- AWS S3  
-- Nodemon  
+- AWS S3    
 
 ### 🔗 API
 - RESTful API architecture
